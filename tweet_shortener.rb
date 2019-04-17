@@ -4,4 +4,4 @@ end
 
 def word_substituter(tweet)
   short_tweet = tweet.split
-  short_tweet.each do 
+  short_tweet.each do |word|
