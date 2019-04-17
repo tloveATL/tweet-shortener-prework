@@ -13,4 +13,3 @@ def word_substituter(tweet)
   end
   puts new_tweet.join("")
 end
-end
