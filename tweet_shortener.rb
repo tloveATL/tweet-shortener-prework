@@ -8,5 +8,5 @@ def word_substituter(tweet)
     short_tweet = ""
     dictionary.each. do |word, short_word|
       if tweet_word == word
-        short_tweet == 
+        short_tweet == short_tweet + short_word
     
