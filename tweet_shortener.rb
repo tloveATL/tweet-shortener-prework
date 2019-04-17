@@ -3,13 +3,14 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  tweet_array = tweet.split
-  tweet_array.each do |tweet_word|
-    short_tweet = ""
-    dictionary.each. do |word, short_word|
+  new_tweet = tweet.split
+  new_tweet.each do |tweet_word|
+    shortened_tweet = ""
+    dictionary.each do |word, shortened_word|
       if tweet_word == word
-        short_tweet == short_tweet + short_word
+        shortened_tweet = shortened_tweet + shortened_word
       end
     end
-    puts short_tweet
+      puts shortened_tweet
   end
+end
