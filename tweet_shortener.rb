@@ -11,6 +11,6 @@ def word_substituter(tweet)
       end
     end
   end
-      puts shortened_tweet
-  end
+puts shortened_tweet
+end
 end
