@@ -6,7 +6,7 @@ def word_substituter(tweet)
   new_tweet = tweet.split
   new_tweet.each_with_index do |tweet_word, index|
     dictionary.each do |word, shortened_word|
-      if new_tweet == word
+      if tweet_word == word
         shortened_tweet = shortened_tweet + shortened_word
       end
     end
