@@ -3,4 +3,4 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  
+  short_tweet = tweet.split
