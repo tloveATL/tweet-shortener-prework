@@ -11,5 +11,5 @@ def word_substituter(tweet)
       end
     end
   end
-  puts new_tweet.join("")
+  new_tweet.join("")
 end
