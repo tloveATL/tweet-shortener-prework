@@ -13,4 +13,3 @@ def word_substituter(tweet)
     end
     puts short_tweet
   end
-end
