@@ -9,4 +9,6 @@ def word_substituter(tweet)
     dictionary.each. do |word, short_word|
       if tweet_word == word
         short_tweet == short_tweet + short_word
+      end
+    end
     
