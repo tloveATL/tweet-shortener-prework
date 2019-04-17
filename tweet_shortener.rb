@@ -5,5 +5,6 @@ end
 def word_substituter(tweet)
   tweet_array = tweet.split
   tweet_array.each do |tweet_word|
-    short_tweet = " "
+    short_tweet = ""
+    
     
