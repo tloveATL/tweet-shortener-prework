@@ -10,6 +10,7 @@ def word_substituter(tweet)
         new_tweet[index] = shortened_word
       end
     end
+  end
       puts shortened_tweet
   end
 end
