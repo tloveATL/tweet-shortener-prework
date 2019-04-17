@@ -11,6 +11,6 @@ def word_substituter(tweet)
       end
     end
   end
-puts shortened_tweet
+  puts new_tweet.join("")
 end
 end
